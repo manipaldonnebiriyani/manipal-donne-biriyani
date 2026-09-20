@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/manipal-donne-briyani/',
+    base: '/manipal-donne-biriyani/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
