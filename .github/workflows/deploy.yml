@@ -28,7 +28,8 @@ jobs:
         run: |
           unzip -o src.zip
           unzip -o public.zip
-          rm src.zip public.zip
+          rm -rf __MACOSX
+          rm -f src.zip public.zip
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
